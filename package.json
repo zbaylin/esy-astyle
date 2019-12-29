@@ -10,6 +10,11 @@
       ["bash", "./esy/install.sh"]
     ]
   },
+  "scripts": {
+    "test": [
+      ["bash", "./esy/test.sh"]
+    ]
+  },
   "dependencies": {
     "esy-cmake": "^0.3.2"
   },
