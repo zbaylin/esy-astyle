@@ -1,0 +1,19 @@
+{
+  "name": "esy-astyle",
+  "version": "0.1.0",
+  "description": "An esy-packaging of the formatting tool AStyle",
+  "esy": {
+    "buildsInSource": "_build",
+    "build": [
+      ["bash", "./esy/prebuild.sh"],
+      ["bash", "./esy/build.sh"],
+      ["bash", "./esy/install.sh"]
+    ]
+  },
+  "dependencies": {
+    "esy-cmake": "^0.3.2"
+  },
+  "devDependencies": {
+      "esy-cmake": "^0.3.2"
+  }
+}
