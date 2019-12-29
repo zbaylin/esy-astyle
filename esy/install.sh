@@ -2,4 +2,10 @@
 
 OS=$(uname)
 
-cp "_build/astyle" "$cur__install/bin"
+if [[ $OS =~ "CYGWIN" ]]; then
+  file="_build/astyle.exe"
+else
+  file="_build/astyle"
+fi
+
+cp $file "$cur__install/bin"
