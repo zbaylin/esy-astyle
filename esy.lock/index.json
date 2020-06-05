@@ -1,21 +1,7 @@
 {
-  "checksum": "f7474cb550668dad4f70479f2aa85bd5",
+  "checksum": "d3710edf6d48115609e1a978e2ccc646",
   "root": "esy-astyle@link-dev:./package.json",
   "node": {
-    "esy-cmake@0.3.5@d41d8cd9": {
-      "id": "esy-cmake@0.3.5@d41d8cd9",
-      "name": "esy-cmake",
-      "version": "0.3.5",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/esy-cmake/-/esy-cmake-0.3.5.tgz#sha1:2df0bdfe9317fbcded5f463fca1f346464494c7a"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [],
-      "devDependencies": []
-    },
     "esy-astyle@link-dev:./package.json": {
       "id": "esy-astyle@link-dev:./package.json",
       "name": "esy-astyle",
@@ -26,8 +12,22 @@
         "manifest": "package.json"
       },
       "overrides": [],
-      "dependencies": [ "esy-cmake@0.3.5@d41d8cd9" ],
-      "devDependencies": [ "esy-cmake@0.3.5@d41d8cd9" ]
+      "dependencies": [ "@revery/esy-cmake@0.3.5001@d41d8cd9" ],
+      "devDependencies": []
+    },
+    "@revery/esy-cmake@0.3.5001@d41d8cd9": {
+      "id": "@revery/esy-cmake@0.3.5001@d41d8cd9",
+      "name": "@revery/esy-cmake",
+      "version": "0.3.5001",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/@revery/esy-cmake/-/esy-cmake-0.3.5001.tgz#sha1:19d35421b8ec11c545a16071fc23c5ceb03a2bcb"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
     }
   }
 }
