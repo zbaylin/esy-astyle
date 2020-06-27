@@ -26,4 +26,4 @@ jobs:
     - name: Install dependencies
       run: esy i
     - name: Build project
-      run: esy b
+      run: esy build
